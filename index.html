@@ -7,17 +7,28 @@
         <meta charset="utf_8">
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
     </head>
-
+    <div class="header">
+        <ul>
+            <li><a href="#intro">Profil</a></li>
+            <li><a href="#spe">Mes competence</a></li>
+            <li><a href="#backgr">Mon expérience</a></li>
+            <li><a href="#cont">me contacter</a></li>
+        </ul>
+    </div>
     <body>
+        <div id="intro"></div>
         <div class="introduction">
-            <div>
-                <h3 class="intro-text-up" >ANTONIN RICARD</h3>
-                <h1 class="intro-text" >développer</h1>
-                <p class="intro-text-down" >Étudiant en première année a Epitech</p>
-                <a class="download_cv" href="resource/B-CPE-201_Corewar_Bootstrap (1).pdf" target="_blank" download>GET CV</a>
+            <img src="resource/photo_me.jpg" class="img_me">
+            <div class="intro_text">
+                <H3 class="hook">Étudiant en informatique à <a href="https://www.epitech.eu/" target="_blank">EPITECH</a> Montpellier</H3>
+                <p class="text_writing_balse">&lt;<span style="color:#eaa023">code</span>&gt; <a class="text_writing"></a><a class="text_writing_balse"> &lt;\<span style="color:#eaa023">code</span>&gt;</a></p>
+                <p class="target">Mon objectif : mettre mes compétences au service de votre entreprise au 
+                    cours d’un stage de 4 mois (sept. à déc. 2021) dans la programmation informatique
+                    (SMMA…) et acquérir de l’expérience.</p>
             </div>
-            <img class="me2" src="resource/me2.png">
         </div>
+        <script src="text_write.js"></script>
+        <div id="spe" class="redirspe"></div>
         <div class="specilizing">
             <div class="spetop">
                 <h3>WHAT I DO</h3>
@@ -25,29 +36,29 @@
             </div>
             <div class="all_box">
                 <div class="box_spe">
-                    <img src="resource/c-programming.png">
+                    <img src="resource/specilizing/c-programming.png">
                     <h3 class="title_box">c programming</h3>
-                    <p class="text_box">Have programing in c in 1 yer</p>
+                    <p class="text_box">Tout au long de ma première année à Epitech j'ai fait la plupart de mes projets en C (certain trouvable sur Github).</p>
                 </div>
                 <div class="box_spe">
-                    <img class="img_box" src="resource/logo_python_good.png">
+                    <img class="img_box" src="resource/specilizing/logo_python_good.png">
                     <h3 class="title_box">Python</h3>
-                    <p class="text_box">Have programing in c in 1 yer</p>
+                    <p class="text_box">Python est un langage que j'affectionne particulièrement par sa simplicité mais avant tout pour les possibilités qui l'offre</p>
                 </div>
                 <div class="box_spe">
-                    <img class="img_box" src="resource/logo_html_css.png">
+                    <img class="img_box" src="resource/specilizing/logo_html_css.png">
                     <h3 class="title_box">HTML - CSS</h3>
-                    <p class="text_box">Have programing in c in 1 yer</p>
+                    <p class="text_box">L'html et le css sont 2 langage que j'ai pue expérimenter de mon côté car ce sont des technologie très intéressante offrant pleine de possibilités</p>
                 </div>
                 <div class="box_spe">
-                    <img class="img_box" src="resource/logo_adobe.png">
+                    <img class="img_box" src="resource/specilizing/logo_adobe.png">
                     <h3 class="title_box">Suite Adobe</h3>
-                    <p class="text_box">Have programing in c in 1 yer</p>
+                    <p class="text_box">Lors de nombreuse projet personnel j'ai été amené à utiliser la suite adobe et en particulier Photoshop et Premiere Pro à usage professionnel</p>
                 </div>
             </div>
         </div>
-        <div class="background">
-            <h1>my background</h1>
+        <div id="backgr" class="background">
+            <h1 class="title-heat">my background</h1>
             <div class="timeline-items">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
@@ -75,38 +86,74 @@
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">2018</div>
-                    <div class="timeline-content">
-                        <h3>timeline item title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2019</div>
-                    <div class="timeline-content">
-                        <h3>timeline item title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
                     <div class="timeline-date">2020</div>
                     <div class="timeline-content">
-                        <h3>timeline item title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h3>Mon entreprise</h3>
+                        <p>En 2020 j'ai créer mon entreprise et monté plusieur marques e-comerce et boutiques en ligne. Le e-comerce étant trés egigent je me suis former dans de nombreux domaine. Une expercience trés enrichisante qur le plan personnel et financier.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">2021</div>
+                    <div class="timeline-date">Depuis sept. 2020</div>
                     <div class="timeline-content">
-                        <h3>timeline item title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h3>Epitech</h3>
+                        <p>J'ai intégrer l'école epitech car la programation me pationne et j'ai d'ésider d'en faaire mon metier et l'école Epitech me plai beaucoup</p>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div id="cont" class="contact">
+            <h1 class="title-heat">Contact me</h1>
+            <div class="contact_side">
+                <button class="box-copy copy-mail">
+                    <img class="contact_logo" src="resource/logo_contact/email_white.svg"></img>
+                    <p>antonin.ricard.pro@gmail.com</p>
+                    <img class="copy_logo" src="resource/logo_contact/copy1.svg"></img>
+                </button>
+                <button class="box-copy copy-phone">
+                    <img class="contact_logo" src="resource/logo_contact/call_white.svg"></img>
+                    <p>07 81 35 25 75</p>
+                    <img class="copy_logo" src="resource/logo_contact/copy1.svg"></img>
+                </button>
+                <a href="https://github.com/antonin-11" target="_blank" class="box-contact">
+                    <img src="resource/logo_contact/github_wite.svg"></img>
+                    <p>github.com/antonin-11</p>
+                </a>
+                <a class="box-contact">
+                    <img src="resource/logo_contact/maps_white.svg"></img>
+                    <p>Montpelier 34000</p>
+                </a>
+            </div>
+        </div>
+        <script src="copy.js"></script>
+        <div class="footer">
+            <div class="side_footer formations">
+                <h3>formations</h3>
+                <ul>
+                    <li>Brevet d’Aptitude aux Fonctions d’Animateur (BAFA)</li>
+                    <li>Certificat SST (Sauveteur Secouriste du Travail)</li>
+                    <li>Préparation Militaire Marine (PMM)</li>
+                    <li>BIA (Brevet d’Initiation à l’Aéronautique)</li>
+                </ul>
+            </div>
+            <div class="side_footer hobby">
+                <h3>LOISIRS</h3>
+                <ul>
+                    <li>Badminton en club</li>
+                    <li>Course à pied</li>
+                    <li>crossfit</li>
+                    <li>Ski</li>
+                </ul>
+            </div>
+            <div class="side_footer navigation">
+                <h3>navigation</h3>
+                <ul>
+                    <li><a href="#intro">Profil</a></li>
+                    <li><a href="#spe">Mes competence</a></li>
+                    <li><a href="#backgr">Mon expérience</a></li>
+                    <li><a href="#cont">me contacter</a></li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
