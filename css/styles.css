@@ -98,10 +98,39 @@ body {
     line-height: 180%;
 }
 
+.introduction .text_writing {
+    position: relative;
+}
+
 .introduction .text_writing , .introduction .text_writing_balse {
     margin: 10px 0px 7px 0px;
     color: #c8c8c8;
     font-size: 20px;
+}
+
+.introduction .text_writing::after {
+    content: '';
+    position: absolute;
+    right: -5px;
+    width: 1px;
+    height: 100%;
+    border-right: 2px solid #c8c8c8;
+    /* animation: blink 0.8s infinite ease; */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .introduction H3 a {
@@ -200,11 +229,6 @@ body {
     color: #ececec;
 }
 
-@media(max-width: 1000px) {
-    .box_spe {
-        width: 70%;
-    }
-}
 
 .box_spe:hover {
     transform: scale(1.1);
@@ -219,8 +243,16 @@ body {
     color: white;
 }
 
-.box_spe .title_box {
-    color: white;
+@media(max-width: 1000px) {
+    .box_spe {
+        width: 70%;
+    }
+    .box_spe p {
+        font-size: 20px;
+    }
+    .box_spe .title_box {
+        font-size: 30px;
+    }
 }
 
 /* -- background -- */
@@ -317,7 +349,16 @@ body {
 }
 
 /* responsive */
-@media(max-width: 800px){
+@media(max-width: 1000px) {
+    .timeline-date {
+        font-size: 22px;
+    }
+    .timeline-content h3 {
+        font-size: 22px;
+    }
+    .timeline-content p {
+        font-size: 17px;
+    }
 	.timeline-items::before{
 		left: 7px;
 	}
@@ -367,18 +408,6 @@ body {
     text-decoration: none;
 }
 
-@media(max-width: 1250px) {
-    .box-contact , .box-copy {
-        margin: 30px 0%;
-    }
-    .contact_side {
-        justify-content: space-around;
-    }
-    .box-contact , .box-copy {
-        width: 300px;
-    }
-}
-
 .box-copy {
     position: relative;
     cursor: pointer;
@@ -400,6 +429,22 @@ body {
     width: 20px;
     top: 8%;
     left: 89%;
+}
+
+@media(max-width: 1250px) {
+    .box-contact p , .box-copy p{
+        font-size: 20px;
+    }
+    .box-contact , .box-copy {
+        margin: 30px 0%;
+    }
+    .contact_side {
+        justify-content: space-around;
+    }
+    .box-contact , .box-copy {
+        width: 400px;
+        height: 100px;
+    }
 }
 
 /* -- Footer -- */

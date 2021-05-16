@@ -36,6 +36,10 @@ let post_text = "test ";
     } else if (select_if === 2) {
         setTimeout(type, 100);
     } else {
-        setTimeout(type, 100);
+        if (dir_write == true) {
+            setTimeout(type, 160);
+        } else {
+            setTimeout(type, 50);
+        }
     }
 })();
