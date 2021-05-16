@@ -138,6 +138,11 @@ body {
     color: #0069B3;
 }
 
+.introduction_valeurs {
+    margin: 30px 18%;
+    color: #c8c8c8;
+}
+
 /* -- specilizing -- */
 
 .specilizing {
@@ -401,7 +406,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: 200px;
+    width: 20%;
     background-color: #2f363e;
     border-radius: 10px;
     align-items: center;

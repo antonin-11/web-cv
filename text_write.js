@@ -1,4 +1,4 @@
-const texts = ["websites", "illustrations", "pancakes"];
+const texts = ["websites", "illustrations", "pancakes", "NONO"];
 let count = 0;
 let index = 0; 
 let currentText = "";
