@@ -28,16 +28,17 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.header ul li a {
+.header ul li .bt_header {
     display: inline-block;
     font-size: 17px;
     text-decoration: none;
     color: #ececec;
 }
 
-.header ul li a::after {
+.header ul li .bt_header::after {
     content: '';
     display: block;
     width: 0px;
@@ -47,10 +48,19 @@ body {
     transition-delay: 0s, 0.3s;
 }
 
-.header ul li a:hover::after {
+.header ul li .bt_header:hover::after {
     width: 100%;
     background-color: #ececec;
     transition: width 0.3s, background-color 0.0s;
+}
+
+.header .mon_cv {
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #eaa023;
+    border-radius: 25px;
+    padding: 5px 15px;
+    color: black;
 }
 
 /* -- introduction -- */
@@ -67,8 +77,17 @@ body {
     margin: 0;
 }
 
+.introduction h1 {
+    color: #ececec;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+
 .introduction {
-    margin: 0% 17%;
+    margin: 0% 14%;
     height: auto;
     overflow: hidden;
 }

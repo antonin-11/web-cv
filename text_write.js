@@ -1,11 +1,11 @@
-const texts = ["websites", "illustrations", "pancakes", "NONO"];
+const texts = ["HTML / CSS", "React", "intelligence artificielle"];
 let count = 0;
 let index = 0; 
 let currentText = "";
 let letter = "";
 let dir_write = true;
 let select_if = 0;
-let post_text = "test ";
+let post_text = "Je recherche un stage en ";
 
 (function type() {
     select_if = 0;
