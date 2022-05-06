@@ -1,11 +1,11 @@
-const texts = ["HTML / CSS", "React", "intelligence artificielle"];
+const texts = ["Vue.js", "Nuxt.js", "node.js"];
 let count = 0;
 let index = 0; 
 let currentText = "";
 let letter = "";
 let dir_write = true;
 let select_if = 0;
-let post_text = "Je recherche un stage en ";
+let post_text = "J'ai des compétence en ";
 
 (function type() {
     select_if = 0;
