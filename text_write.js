@@ -5,7 +5,7 @@ let currentText = "";
 let letter = "";
 let dir_write = true;
 let select_if = 0;
-let post_text = "J'ai des compétence en ";
+let post_text = "J'ai des compétences en ";
 
 (function type() {
     select_if = 0;
